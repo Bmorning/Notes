@@ -1,24 +1,4 @@
 Notes
 
-Study notesfuhfaifhahfkahgaaaaaaewghioguhwerioug
-
-'hlfkjshaflksa
-
-
-
-
-
-
-
-
-
-ashfkljshaf
-
-
-
-askhfkhsga
-
-ashkfhkajs
-
-
+Study notes
 
