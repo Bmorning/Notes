@@ -5,5 +5,13 @@
 
 * In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash \(\\) in front of the quote.                                                                                                                                            ![](/assets/无标题.jpg)
 
+* append element from end: function.
+
+* append element from front: function.unshift\(\)
+
+* remove element from end: function.pop\(\)
+
+* remove element from front: function.shift\(\)
+
 
 
