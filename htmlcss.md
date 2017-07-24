@@ -44,5 +44,20 @@
 
 * #### `!important`
 
+---
+
+* comment out\(HTML\):
+
+```
+<!--    -->
+```
+
+* comment out\(CSS\):
+
+```css
+/*
+*/
+```
+
 
 
