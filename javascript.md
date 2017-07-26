@@ -1,4 +1,4 @@
-* #### In JavaScript all variables and function names are case sensitive.
+* [ ] #### In JavaScript all variables and function names are case sensitive.
 * **Variable names** can be made up of numbers, letters, and`$`or`_`, but may not contain spaces or start with a number.
 
 * When JavaScript variables are declared, they have an initial value of undefined. If you do a mathematical operation on an undefined variable your result will be `NaN` which means "Not a Number". If you concatenate a string with an undefined variable, you will get a literal string of "undefined".
@@ -15,30 +15,10 @@
 
 ---
 
-* In order for JavaScript to compare two different data types \(for example, numbers and strings\), it must convert one type to another. Once it does, however, it can compare terms as follows:
-
-```
-   1   ==  1    // true
-   1   ==  2    // false
-   1   == '1'   // true
-  "3"  ==  3    // true
-```
-
-* **Strict equality \(===\) **is the counterpart to the **equality operator \(==\)**. Unlike the equality operator, strict equality tests both the data type and value of the compared elements.
-
-```
-3 === 3   // true
-3 === '3' // false
-```
-
-The strict inequality operator \(!==\) is the opposite of the strict equality operator.Strict inequality will not convert data types.
-
-```
-3 !== 3   // false
-3 !== '3' // true
-4 !== 3   // true
-3 !='3'   //false
-```
+| Convert type |  | Tests both type and value |  |
+| :--- | :--- | :--- | :--- |
+| ==    | 3 == '3' //true | ===  | 3 === '3' //false |
+| != | 3 != '3' //false | !== | 3 !== '3' //true |
 
 
 
