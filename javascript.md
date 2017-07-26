@@ -13,5 +13,23 @@
 
 * remove element off of the front: function.shift\(\)
 
+---
+
+* In order for JavaScript to compare two different data types \(for example, numbers and strings\), it must convert one type to another. Once it does, however, it can compare terms as follows:
+
+```
+   1   ==  1    // true
+   1   ==  2    // false
+   1   == '1'   // true
+  "3"  ==  3    // true
+```
+
+* Strict equality \(===\) is the counterpart to the equality operator \(==\). Unlike the equality operator, strict equality tests both the data type and value of the compared elements.
+
+```
+3 === 3   // true
+3 === '3' // false
+```
+
 
 
