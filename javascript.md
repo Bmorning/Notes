@@ -29,5 +29,3 @@
 
 ![](/assets/switch-case.png)
 
-
-
