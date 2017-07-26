@@ -17,8 +17,13 @@
 
 | Convert type |  | Tests both type and value |  |
 | :--- | :--- | :--- | :--- |
-| ==    | 3 == '3' //true | ===  | 3 === '3' //false |
+| == | 3 == '3' //true | === | 3 === '3' //false |
 | != | 3 != '3' //false | !== | 3 !== '3' //true |
+
+|  |  |
+| :--- | :--- |
+| \|\| | logical or |
+| && | logicall and |
 
 
 
