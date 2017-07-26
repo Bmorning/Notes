@@ -25,5 +25,5 @@
 | \|\| | logical or |
 | && | logicall and |
 
-
+`case` \(in switch-case statements\) values are tested with strict equality \(===\).
 
