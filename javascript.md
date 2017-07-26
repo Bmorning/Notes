@@ -31,5 +31,14 @@
 3 === '3' // false
 ```
 
+The strict inequality operator \(!==\) is the opposite of the strict equality operator.Strict inequality will not convert data types.
+
+```
+3 !== 3   // false
+3 !== '3' // true
+4 !== 3   // true
+3 !='3'   //false
+```
+
 
 
