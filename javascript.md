@@ -51,7 +51,7 @@ properties:[JSON](http://www.json.org/)
 * `\d`  is used to retrieve one digit \(e.g. numbers 0 to 9\) in a string.
 * `+` after the selector, e.g. /\d+/g, allows this regular expression to **match one or more digits.**
 * `\s` to find whitespace
-* `\S` will match anything that** isn't** whitespace.
+* `\S` will match anything that** isn't** whitespace.\(with no '+'\)
 * `\r` \(the carriage return
 * `\n` \(newline\)
 * `\t` \(tab
