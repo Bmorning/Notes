@@ -29,3 +29,13 @@
 
 ![](/assets/switch-case.png)
 
+properties:
+
+* myDog.name
+
+* myDog\["name"\]
+
+* ![](/assets/properties.png)
+
+
+
