@@ -50,7 +50,8 @@ properties:[JSON](http://www.json.org/)
 * `i` means that we want to ignore the case \(uppercase or lowercase\) when searching for the pattern.
 * `\d`  is used to retrieve one digit \(e.g. numbers 0 to 9\) in a string.
 * `+` after the selector, e.g. /\d+/g, allows this regular expression to **match one or more digits.**
-* `\s` to find whitespace in a string.
+* `\s` to find whitespace
+* `\S` will match anything that** isn't** whitespace.
 * `\r` \(the carriage return
 * `\n` \(newline\)
 * `\t` \(tab
