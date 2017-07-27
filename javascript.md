@@ -29,7 +29,7 @@
 
 ![](/assets/switch-case.png)
 
-properties:
+properties:[JSON](http://www.json.org/)
 
 * myDog.name
 
