@@ -37,5 +37,5 @@ properties:
 
 * ![](/assets/properties.png)
 
-
+`.hasOwnProperty()` returns true or false if the property is found or not.
 
