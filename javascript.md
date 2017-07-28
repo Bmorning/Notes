@@ -72,12 +72,12 @@ var Car {
 constructor:
 
 ```js
-var Car = function() {
-    this.wheels = 4;
-    this.engines = 1;
-    this.seats = 5;
+var Car = function(wheels,engines,seats) {
+    this.wheels = wheels;
+    this.engines = engines;
+    this.seats = seats;
 };
 ```
 
- 
+
 
