@@ -72,10 +72,11 @@ var Car {
 constructor:
 
 ```js
-var Car = function(wheels,engines,seats) {
+var Car = function(wheels,engines,seats,mirrors) {
     this.wheels = wheels;
     this.engines = engines;
-    this.seats = seats;
+    this.seats = seats;    //global
+    var mirrors = mirrors; //private
 };
 ```
 
