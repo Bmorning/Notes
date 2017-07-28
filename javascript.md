@@ -35,7 +35,7 @@ properties:[JSON](http://www.json.org/)
 
 * myDog\["name"\]
 
-* ![](/assets/properties.png)
+* ![](/assets/properties.png)----object
 
 `.hasOwnProperty()` returns true or false if the property is found or not.
 
@@ -57,5 +57,27 @@ properties:[JSON](http://www.json.org/)
 * `\t` \(tab
 * `\f` \(the form feed\).
 
+---
 
+object:
+
+```js
+var Car {
+  "wheels" : 4,
+  "engines" : 1,
+  "seats" : 5
+};
+```
+
+constructor:
+
+```js
+var Car = function() {
+    this.wheels = 4;
+    this.engines = 1;
+    this.seats = 5;
+};
+```
+
+ 
 
