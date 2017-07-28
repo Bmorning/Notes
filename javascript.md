@@ -41,7 +41,7 @@ properties:[JSON](http://www.json.org/)
 
 ---
 
-`Regular expressions`  are used to find certain words or patterns inside of strings. example: `/\s+/gi`
+[**Regular expressions**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)  are used to find certain words or patterns inside of strings. example: `/\s+/gi`
 
 * `/` is the start of the regular expression.
 * `the` is the pattern we want to match.
