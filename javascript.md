@@ -37,25 +37,7 @@ properties:[JSON](http://www.json.org/)
 
 * ![](/assets/properties.png)----object
 
-`.hasOwnProperty()` returns true or false if the property is found or not.
 
----
-
-[**Regular expressions**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)  are used to find certain words or patterns inside of strings. example: `/\s+/gi`
-
-* `/` is the start of the regular expression.
-* `the` is the pattern we want to match.
-* `/` is the end of the regular expression.
-* `g` means global, which causes the pattern to return all matches in the string, not just the first one.
-* `i` means that we want to ignore the case \(uppercase or lowercase\) when searching for the pattern.
-* `\d`  is used to retrieve one digit \(e.g. numbers 0 to 9\) in a string.
-* `+` after the selector, e.g. /\d+/g, allows this regular expression to **match one or more digits.**
-* `\s` to find whitespace
-* `\S` will match anything that** isn't** whitespace.\(with no '+'\)
-* `\r` \(the carriage return
-* `\n` \(newline\)
-* `\t` \(tab
-* `\f` \(the form feed\).
 
 ---
 
@@ -86,25 +68,4 @@ var Car = function(wheels,engines,seats,mirrors) {
 * Sort
 
 [廖雪峰Js](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
-
-* `concat` being used to concatenate `otherArray` onto the end of `oldArray`:
-
-```js
-newArray = oldArray.concat(otherArray);
-```
-
-* `string.split()` to split string into an array by specific string\(' 'for example\) or a regular expression.
-
-```js
-var array1 = string.split(' ');
-var array2 = string.split(/\s+/g);
-```
-
-* `array.join()` to join all of the elements of an array into a string separated by whatever delimiter you provided.
-
-```js
-var string =array.join(" and ");
-```
-
-
 
