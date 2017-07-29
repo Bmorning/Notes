@@ -9,5 +9,4 @@
 * [JavaScript - methods](javascript-functions.md)
 * [JavaScript - loop](javascript-loop.md)
 * [Regular Expressions](regular-expressions.md)
-* [JavaScript - loop](javascript-loop.md)
 
