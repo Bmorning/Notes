@@ -8,7 +8,15 @@
 
 * `str.substr(start[, length])`  //one-based index
 
-* `str.slice(beginIndex[,endIndex])`  //zero-based index, The character at `endIndex` will not be included. 
+* `str.slice(beginIndex[,endIndex])`  //zero-based index, The character at `endIndex` will not be included.
+
+* `str.indexOf(searchValue[, fromIndex]`
+
+* `str.lastIndexOf(searchValue[, fromIndex])`
+
+* `arr.indexOf(searchElement[, fromIndex])`
+
+* `arr.lastIndexOf(searchElement, fromIndex)`
 
 * `str.repeat(times)` :
 
