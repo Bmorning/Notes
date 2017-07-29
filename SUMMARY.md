@@ -9,5 +9,4 @@
 * [JavaScript](javascript.md)
 * [JavaScript - methods](javascript-functions.md)
 * [JavaScript - loop](javascript-loop.md)
-* [Escape String](escape-string.md)
 
