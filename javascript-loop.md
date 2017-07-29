@@ -47,5 +47,13 @@ function sequentialSizes(val) {
 }
 ```
 
- 
+* Conditional \(ternary\) Operator
+
+```js
+var x = false;
+var s = x ? "yes" : "no";
+console.log(s);  //→ "no"
+```
+
+
 
