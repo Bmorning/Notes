@@ -6,7 +6,9 @@
 
 * `str.substring(indexStart[, indexEnd])`
 
-* `str.substr(start[, length]`  // attention to case
+* `str.substr(start[, length])`  // attention to case
+
+* `str.slice(beginIndex[,endIndex])`  zero-based index
 
 * `str.repeat(times)` :
 
