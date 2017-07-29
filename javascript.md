@@ -22,8 +22,6 @@
 
 ![](/assets/switch-case.png)
 
-
-
 ---
 
 object:[JSON](http://www.json.org/)
