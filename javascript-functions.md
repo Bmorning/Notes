@@ -8,7 +8,7 @@
 
 * `str.substr(start[, length])`  //one-based index
 
-* `str.slice(beginIndex[,endIndex])`  //zero-based index
+* `str.slice(beginIndex[,endIndex])`  //zero-based index, The character at `endIndex` will not be included. 
 
 * `str.repeat(times)` :
 
