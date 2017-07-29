@@ -4,17 +4,23 @@
 
 * `array.join(" and ")` to join all of the elements of an array into a string separated by whatever delimiter you provided.
 
----
-
 * `str.substring(indexStart[, indexEnd])`
 
 * `str.substr(start[, length]`  // attention to case
 
-* `.hasOwnProperty()` returns true or false if the property is found or not.
+* `str.repeat(times)` :
+
+```js
+ str.repeat(0)//''  
+ str.repeat(2)//str.str  
+ str.repeat(-1)//error
+```
 
 ---
 
-* `array.push()` append element to the end 
+* `.hasOwnProperty()` returns true or false if the property is found or not.
+
+* `array.push()` append element to the end
 
 * `array.unshift()` append element to the front
 
