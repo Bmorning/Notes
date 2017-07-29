@@ -55,5 +55,5 @@ var s = x ? "yes" : "no";
 console.log(s);  //→ "no"
 ```
 
-
+obj!==false && obj!==null && obj!==0 && obj!=="" && obj!==undefined && !isNaN\(obj\);
 
