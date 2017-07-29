@@ -4,11 +4,11 @@
 
 * `array.join(" and ")` to join all of the elements of an array into a string separated by whatever delimiter you provided.
 
-* `str.substring(indexStart[, indexEnd])`
+* `str.substring(indexStart[, indexEnd])`  //one-based index
 
-* `str.substr(start[, length])`  // attention to case
+* `str.substr(start[, length])`  //one-based index
 
-* `str.slice(beginIndex[,endIndex])`  zero-based index
+* `str.slice(beginIndex[,endIndex])`  //zero-based index
 
 * `str.repeat(times)` :
 
