@@ -3,24 +3,17 @@
 
 * When JavaScript variables are declared, they have an initial value of undefined. If you do a mathematical operation on an undefined variable your result will be `NaN` which means "Not a Number". If you concatenate a string with an undefined variable, you will get a literal string of "undefined".
 
-* In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash \(\\) in front of the quote.                                                                                                                                            ![](/assets/无标题.jpg)
-
-* 
 ---
 
-| Convert type |  | Tests both type and value |  |
-| :--- | :--- | :--- | :--- |
-| == | 3 == '3' //true | === | 3 === '3' //false |
-| != | 3 != '3' //false | !== | 3 !== '3' //true |
+* `==`    `3 == '3' //true`
 
-|  |  |
-| :--- | :--- |
-| \|\| | logical or |
-| && | logicall and |
+* `===`    `3=== '3' //false`
 
-* `case` \(in switch-case statements\) values are tested with strict equality \(===\).
+* `!=`     `3!= '3' //false`
 
-![](/assets/switch-case.png)
+* `!==`    `3!== '3' //true`
+
+* logical or `||`  ,  logical and `&&`
 
 ---
 

@@ -7,6 +7,7 @@
 * [jQuery](jquery.md)
 * [JavaScript](javascript.md)
 * [JavaScript - methods](javascript-functions.md)
+* [JavaScript - loop](javascript-loop.md)
 * [Regular Expressions](regular-expressions.md)
-* Escape String
+* [JavaScript - loop](javascript-loop.md)
 
