@@ -5,14 +5,7 @@
 
 * In JavaScript, you can escape a quote from considering it as an end of string quote by placing a backslash \(\\) in front of the quote.                                                                                                                                            ![](/assets/无标题.jpg)
 
-* append element to the end: function.push\(\)
-
-* append element to the front: function.unshift\(\)
-
-* remove element off of the end: function.pop\(\)
-
-* remove element off of the front: function.shift\(\)
-
+* 
 ---
 
 | Convert type |  | Tests both type and value |  |
@@ -29,32 +22,27 @@
 
 ![](/assets/switch-case.png)
 
-properties:[JSON](http://www.json.org/)
-
-* myDog.name
-
-* myDog\["name"\]
-
-* ![](/assets/properties.png)----object
-
 
 
 ---
 
-object:
+object:[JSON](http://www.json.org/)
 
 ```js
-var Car {
+var car {
   "wheels" : 4,
   "engines" : 1,
   "seats" : 5
 };
+
+console.log(car.wheels);
+console.log(car["wheels"]);
 ```
 
 constructor:
 
 ```js
-var Car = function(wheels,engines,seats,mirrors) {
+var car = function(wheels,engines,seats,mirrors) {
     this.wheels = wheels;
     this.engines = engines;
     this.seats = seats;    //global
@@ -62,10 +50,15 @@ var Car = function(wheels,engines,seats,mirrors) {
 };
 ```
 
-* Map
-* Reduce
-* Filter
-* Sort
+---
+
+Map
+
+Reduce
+
+Filter
+
+Sort
 
 [廖雪峰Js](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 

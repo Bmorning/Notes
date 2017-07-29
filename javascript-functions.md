@@ -1,27 +1,28 @@
-* `concat` being used to concatenate `otherArray` onto the end of `oldArray`:
+* `oldArray.concat(otherArray)` being used to concatenate `otherArray` onto the end of `oldArray`
 
-```js
-newArray = oldArray.concat(otherArray);
-```
+* `string.split("")` to split string into an array by specific string\(`string.split(' ')`\) or a regex\(`string.split(/\s+/g)`\).
 
-* `string.split()` to split string into an array by specific string\(' 'for example\) or a regular expression.
+* `array.join(" and ")` to join all of the elements of an array into a string separated by whatever delimiter you provided.
 
-```js
-var array1 = string.split(' ');
-var array2 = string.split(/\s+/g);
-```
-
-* `array.join()` to join all of the elements of an array into a string separated by whatever delimiter you provided.
-
-```js
-var string =array.join(" and ");
-```
+---
 
 * `str.substring(indexStart[, indexEnd])`
 
 * `str.substr(start[, length]`  // attention to case
 
 * `.hasOwnProperty()` returns true or false if the property is found or not.
+
+---
+
+* `array.push()` append element to the end 
+
+* `array.unshift()` append element to the front
+
+* `array.pop()` remove element off of the end
+
+* `array.shift()` remove element off of the front
+
+---
 
 
 
