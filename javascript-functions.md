@@ -10,6 +10,8 @@
 
 * `str.slice(beginIndex[,endIndex])`  //zero-based index, The character at `endIndex` will not be included.
 
+* `array.splice(start, deleteCount, item1, item2, ...)`
+
 * `str.indexOf(searchValue[, fromIndex]`
 
 * `str.lastIndexOf(searchValue[, fromIndex])`
