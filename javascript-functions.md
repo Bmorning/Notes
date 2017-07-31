@@ -3,7 +3,7 @@
 1. index:
    1. `arr.indexOf(searchElement[, fromIndex])`
    2. `arr.lastIndexOf(searchElement, fromIndex)`
-   3. `arr.findIndex(callback)` The findIndex\(\) method returns the index of the **first** element in the array that satisfies the provided testing function. Otherwise -1 is returned.
+   3. `arr.findIndex(callback)` The findIndex\(\) method returns the index of the **first** element in the array that satisfies the provided testing function. Otherwise -1 is returned.
 2. `arr.sort(function(a,b){return a-b;})` ATTENTION! this method sorts strings rather then numbers,19 ranks before 2.
 3. join:
    1. `oldArray.concat(otherArray)` being used to concatenate `otherArray` onto the end of `oldArray`
@@ -45,5 +45,5 @@
 
 ---
 
-
+Arrow Function : =&gt;
 
