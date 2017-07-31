@@ -14,6 +14,7 @@
    3. `array.pop()` remove element off of the end
    4. `array.shift()` remove element off of the front
 6. arguments：`Array.from(arguments)`  `Array.prototype.slice.call(arguments)` 
+7. `arr.inclues(searchElements)`
 
 ---
 
@@ -26,14 +27,12 @@
    1. `str.substring(indexStart[, indexEnd])`  //one-based index
    2. `str.substr(start[, length])`  //one-based index
    3. `str.slice(beginIndex[,endIndex])`  //zero-based index, The character at `endIndex` will not be included.
-3. `string.split("")` to split string into an array by specific string\(`string.split(' ')`\) or a regex\(`string.split(/\s+/g)`\)
-4. `str.repeat(times)` :
-
-```js
- str.repeat(0)//''  
- str.repeat(2)//str.str  
- str.repeat(-1)//error
-```
+3. `string.split("")` to split string into an array by specific string\(`string.split(' ')`\) or a regex\(`string.split(/\s+/g)`\) 
+4. str.repeat\(times\):
+   1. `str.repeat(0)//''  `
+   2. `str.repeat(2)//str.str  `
+   3. `str.repeat(-1)//error`
+5. `str.inclues(searchElements)`
 
 ---
 
