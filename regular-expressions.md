@@ -14,5 +14,13 @@
 * `\t`  tab
 * `\f`  the form feed\).
 
+`regexObj.test(str):`
+
+```
+var str = 'hello world!';
+var result = /^hello/.test(str);
+console.log(result); // true
+```
+
 
 
