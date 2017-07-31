@@ -3,7 +3,7 @@
 1. index:
    1. `arr.indexOf(searchElement[, fromIndex])`
    2. `arr.lastIndexOf(searchElement, fromIndex)`
-2. `arr.sort()` ATTENTION! this method sorts strings rather then numbers,19 ranks before 2.
+2. `arr.sort(function(a,b){return a-b;})` ATTENTION! this method sorts strings rather then numbers,19 ranks before 2.
 3. join:
    1. `oldArray.concat(otherArray)` being used to concatenate `otherArray` onto the end of `oldArray`
    2. `array.join(" and ")` to join all of the elements of an array into a string separated by whatever delimiter you provided.
@@ -17,12 +17,6 @@
 7. arguments：`Array.from(arguments)`  `Array.prototype.slice.call(arguments)` 
 8. `arr.inclues(searchElements)`
 9. `arr.every(callback)`  The `every()` method tests whether all elements in the array pass the test implemented by the provided function.
-
-
-
-
-
-
 
 ---
 
