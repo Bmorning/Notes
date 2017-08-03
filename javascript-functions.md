@@ -45,5 +45,5 @@
 
 ---
 
-Arrow Function : =&gt;
+Arrow Function   =&gt;
 
