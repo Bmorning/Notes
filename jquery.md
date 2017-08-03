@@ -1,12 +1,3 @@
-### [jQuery](#jqueryhttpjquerycuishifengcn)
-
-```js
-<script>
-  $(document).ready(function() {
-  });
-</script>
-```
-
 1.基本选择器
 
 ```js
