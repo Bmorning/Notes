@@ -1,5 +1,7 @@
 ### **Bootstrap responsive:**
 
+
+
 ```css
 <div class="container-fluid">
 <div class="container">

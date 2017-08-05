@@ -10,4 +10,5 @@
 * [JavaScript](javascript.md)
 * [JavaScript - methods](javascript-functions.md)
 * [JavaScript - loop](javascript-loop.md)
+* [codepen - failures](codepen-failures.md)
 
