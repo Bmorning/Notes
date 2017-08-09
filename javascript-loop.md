@@ -51,7 +51,7 @@ function sequentialSizes(val) {
 
 ```js
 var x = false;
-var s = x ? "yes" : "no";
+var s == x ? "yes" : "no";
 console.log(s);  //→ "no"
 ```
 
