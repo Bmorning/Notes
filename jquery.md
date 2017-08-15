@@ -1,6 +1,6 @@
 [jQuery Selector](http://www.runoob.com/jquery/jquery-ref-selectors.html) : [example](http://www.runoob.com/try/trysel.php)
 
-1.基本选择器 
+1.基本选择器
 
 ```js
 $("#id")//ID选择器
