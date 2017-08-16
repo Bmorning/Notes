@@ -15,7 +15,7 @@
    2. `array.unshift()` append element to the front
    3. `array.pop()` remove element off of the end
    4. `array.shift()` remove element off of the front
-7. arguments：`Array.from(arguments)`  `Array.prototype.slice.call(arguments)` 
+7. `{}`arguments：`Array.from(arguments)`  `Array.prototype.slice.call(arguments)` 
 8. `arr.inclues(searchElements)`
 9. `arr.every(callback)`  The `every()` method tests whether all elements in the array pass the test implemented by the provided function.
 10. `.forEach`　can _**only**_ be used for array!! not suitable for JSON.
