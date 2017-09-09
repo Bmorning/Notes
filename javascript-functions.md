@@ -15,9 +15,10 @@
    2. `array.unshift()` append element to the front
    3. `array.pop()` remove element off of the end
    4. `array.shift()` remove element off of the front
-7. arguments：`Array.from(arguments)`  `Array.prototype.slice.call(arguments)` 
+7. `{}`arguments：`Array.from(arguments)`  `Array.prototype.slice.call(arguments)` 
 8. `arr.inclues(searchElements)`
-9. `arr.every(callback)`  The `every()` method tests whether all elements in the array pass the test implemented by the provided function.
+9. `arr.every(callback)`  The `every()` method tests whether all elements in the array pass the test implemented by the provided function.`arr.some(callback)`
+10. `.forEach`　can _**only**_ be used for array!! not suitable for JSON.
 
 ---
 
@@ -46,4 +47,9 @@
 ---
 
 Arrow Function   =&gt;
+
+---
+
+**1、不使用prototype属性定义的对象方法，是静态方法，只能直接用类名进行调用！另外，此静态方法中无法使用this变量来调用对象其他的属性！**  
+**　　 2、使用prototype属性定义的对象方法，是非静态方法，只有在实例化后才能使用！其方法内部可以this来引用对象自身中的其他属性！**
 

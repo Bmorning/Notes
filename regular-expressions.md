@@ -10,9 +10,9 @@
 * `\s` to find whitespace
 * `\S` will match anything that\*\* isn't\*\* whitespace.\(with no '+'\)
 * `\r`  the carriage return
-* `\n`  newline\)
+* `\n`  newline
 * `\t`  tab
-* `\f`  the form feed\).
+* `\f`  the form feed
 
 `regexObj.test(str):`
 
